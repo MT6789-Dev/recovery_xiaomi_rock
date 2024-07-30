@@ -1,53 +1,32 @@
-#  Recovery tree of Xiaomi POCO M5/Redmi 11 Prime 
+Device configuration for Redmi 11 Prime 4G & Poco M5 :
+==============
 
-Poco M5/Redmi 11 Prime (codenamed _"stone/rock"_) is a smartphone from Xiaomi.
+The Redmi 11 Prime 4G & POCO M5 (codenamed _"rock and stone"_) mid-range smartphone from Xiaomi.
+It was announced & released in September 2022.
 
-It was announced & released on September 2022.
+**Notes** : Redmi 11 Prime 4G is "Rock" & Poco M5 is "Stone".
 
-## Device specifications
+## Device Specifications :
 
-Basic   | Spec Sheet
--------:|:-------------------------
-SoC     | Mediatek Helio G99 (MT6789) (6nm)
-CPU     | Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)
-GPU     | Mali-G57 MC2
-Memory  | 4 GB RAM
-Shipped Android Version | 12.0 with MIUI 13
-Storage | 64/128 GB
-Battery | Li-Po 5000 mAh, non-removable
-Display | IPS LCD, 90Hz, 500 nits (HBM), 6.58 inches, 104.3 cm2 (~83.6% screen-to-body ratio), 1080 x 2408 pixels, 20:9 ratio (~401 ppi density), Corning Gorilla Glass 3.
-Camera  | 50 MP, f/1.8, (wide), PDAF, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)
+| Device       | Redmi 11 Prime 4G & POCO M5                                                    |
+| -----------: | :--------------------------------------------------------- |
+| SoC          | MediaTek Helio G99                                         |
+| Clusters     | 2x 2.2 GHz ARM, 6x 2.0 GHz ARM                             |
+| Family       | Cortex-A76, Cortex-A55                                     |
+| Cores        | 8                                                          |
+| Platform     | MT6789                                                     |
+| GPU          | ARM Mali-G57 MC2                                           |
+| Process Tech.| 6nm                                                        |
+| Memory       | 4 GB / 6 GB RAM (LPDDR4X)                                  |
+| Shipped OS   | 12.0 with MIUI 13 for POCO                                 |
+| Storage      | 64 GB / 128 GB                                             |
+| Flash        | UFS 2.2                                                    |
+| Battery      | Non-removable Li-poly 5000 mAh, 18w charger                |
+| Dimensions   | 163.99 x 76.09 x 8.9 mm                                    |
+| Display      | 2408 x 1080 px, 6.58 inches, 90 hz, IPS                    |
+| Rear camera  | 50MP (Primary), 2MP (Macro), 2MP (Depth)                   |
+| Front camera | 5 MPx                                                      |
+| NFC          | Rock (No), Stone (Yes)                                            |
 
-## Device picture
-
-![1704331359766](https://github.com/TeamWin/android_device_xiaomi_fleur/assets/142644567/e20900e9-0a2e-43f3-bc5c-244984ea0b73)
-
-## Features
-
-Works:
-
-- [X] ADB
-- [X] Decryption
-- [X] Display
-- [X] Fasbootd
-- [X] Flashing
-- [X] MTP
-- [X] Sideload
-- [X] USB OTG
-- [X] SD Card
-- [X] Touch
-- [ ] Flashlight
-- [X] Vibrator
-
-# Building
-```bash
-source build/envsetup.sh
-lunch twrp_rock-eng
-mka vendorbootimage
-```
-
-## To use it:
-
-```
-fastboot flash vendor_boot out/target/product/rock/vendor_boot.img
-```
+## Device Picture :
+![Redmi11Prime&PocoM5](https://github.com/user-attachments/assets/c107642e-e450-4cd2-b672-85c6cf9d4a20)
